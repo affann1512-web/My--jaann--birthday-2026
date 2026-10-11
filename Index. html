@@ -1,1 +1,342 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090609">
+<title>For My Jaann ❤️</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;
+ font-family:Georgia,"Times New Roman",serif;
+ background:
+ radial-gradient(ellipse at top,#351020 0%,transparent 55%),
+ linear-gradient(145deg,#080608,#160812,#090609);
+ color:#fff0f6;
+ text-align:center;
+ overflow-x:hidden;
+}
+.screen{
+ min-height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding:22px;
+ position:relative;
+ z-index:1;
+}
+.card{
+ width:100%;
+ max-width:680px;
+ padding:32px 22px;
+ border:1px solid rgba(255,105,160,.25);
+ border-radius:25px;
+ background:rgba(23,9,19,.88);
+ box-shadow:0 0 45px rgba(155,20,75,.16);
+}
+h1{
+ color:#ff79ad;
+ font-size:clamp(30px,7vw,43px);
+ text-shadow:0 0 20px rgba(255,70,140,.35);
+}
+h2{
+ color:#ff91ba;
+ font-size:27px;
+}
+p{
+ font-size:17px;
+ line-height:1.9;
+ color:#f3dce6;
+}
+button{
+ border:1px solid #ff8db8;
+ background:linear-gradient(135deg,#b51f5b,#68102f);
+ color:white;
+ padding:14px 25px;
+ border-radius:30px;
+ font-size:16px;
+ margin:9px 4px;
+ cursor:pointer;
+ box-shadow:0 0 20px rgba(220,35,105,.18);
+}
+button:active{transform:scale(.97)}
+.gift{font-size:75px}
+.photo{
+ width:100%;
+ max-width:450px;
+ border-radius:18px;
+ margin:15px auto;
+ display:block;
+ border:1px solid rgba(255,125,175,.4);
+ box-shadow:0 0 25px rgba(180,25,85,.16);
+}
+.divider{
+ width:65%;
+ height:1px;
+ background:linear-gradient(90deg,transparent,#ff79ad,transparent);
+ margin:34px auto;
+}
+.big{font-size:48px}
+.signature{
+ color:#ff8db8;
+ font-size:21px;
+ font-weight:bold;
+}
+.music{
+ font-size:13px;
+ color:#c9a9b8;
+}
+#surprise{display:none}
+.fade{animation:fade 1.2s ease}
+@keyframes fade{
+ from{opacity:0;transform:translateY(22px)}
+ to{opacity:1;transform:translateY(0)}
+}
+.heart{
+ position:fixed;
+ bottom:-35px;
+ color:#ff548f;
+ text-shadow:0 0 12px #b51f5b;
+ animation:float 7s linear forwards;
+ pointer-events:none;
+ z-index:0;
+}
+@keyframes float{
+ 0%{transform:translateY(0) rotate(0);opacity:0}
+ 15%{opacity:.65}
+ 100%{transform:translateY(-110vh) rotate(35deg);opacity:0}
+}
+.secret{
+ display:none;
+ margin-top:25px;
+ padding:22px 15px;
+ border:1px solid rgba(255,125,175,.4);
+ border-radius:18px;
+ background:rgba(70,12,38,.45);
+ animation:fade 1s ease;
+}
+.secret p{font-size:18px}
+.small{
+ font-size:12px;
+ color:#bd9baa;
+}
+audio{width:100%;max-width:330px;margin:12px auto}
+@media(max-width:480px){
+ .card{padding:26px 17px}
+ p{font-size:16px}
+ h2{font-size:24px}
+ .photo{max-width:100%}
+}
+</style>
+</head>
+<body>
+<div id="opening" class="screen">
+ <div class="card fade">
+  <div class="gift">🎁</div>
+  <p class="small">A LITTLE WORLD MADE JUST FOR YOU</p>
+  <h1>For My Jaann ❤️</h1>
+  <p>
+   I made something just for you 🥺
+   <br>Ek chhota sa surprise hai tumhare liye
+   <br><br>
+   Before you open this
+   <br>bas ek baar smile kar dena 🙈❤️
+  </p>
+  <button onclick="openSurprise()">Open Your Surprise ❤️</button>
+  <br>
+  <button onclick="playMusic()">🎵 Play Music</button>
+  <p class="music">Tap karke music enjoy karna, meri jaann 🎶</p>
+ </div>
+</div>
+<div id="surprise">
+<div class="screen">
+<div class="card fade">
+<div class="big">🎂❤️</div>
+<h1>Happy Birthday My Jaann ❤️</h1>
+<p>
+Happy Birthday meri jaan ❤️
+<br><br>
+Aaj ka din mere liye bhi bohot special hai
+because aaj ke din meri life ka sabse special person duniya mein aaya tha
+<br><br>
+I just want you to know ki tum mere liye kitni important ho
+<br>
+Tumhari smile mere liye bohot matter karti hai ❤️
+</p>
+<div class="divider"></div>
+<h2>I'm Really Sorry 😭</h2>
+<p>
+Jaann I know pichle kuch days hum dono ke liye easy nahi the
+<br>
+Maine tumhe hurt kiya and honestly I am really sorry 😭
+<br><br>
+I know sirf sorry bolne se sab kuch ekdum theek nahi ho jayega
+<br>
+But I genuinely want to make things better
+<br>
+I really don't want to lose you 🥺
+<br><br>
+Sometimes mujhe samajh nahi aata ki main apni feelings properly kaise express karu
+<br>
+But you really mean a lot to me
+<br><br>
+Main chahta hoon tumhe sirf meri baaton se nahi, mere actions se bhi pyaar aur care feel ho ❤️
+</p>
+<div class="divider"></div>
+<h2>Our Memories ❤️</h2>
+<img src="photo1.jpg.JPG" class="photo" alt="Our Memory One"
+onerror="this.style.display='none'">
+<p>
+Ye photo dekh ke bas ek hi cheez yaad aati hai
+<br>
+I wish main us moment mein tumhare paas hota
+<br><br>
+Distance ke wajah se hum har moment saath nahi reh paate
+<br>
+But still tum mere dil ke bohot close ho ❤️
+</p>
+<div class="divider"></div>
+<h2>Even From Far Away 🥺</h2>
+<img src="photo2.jpg.jpg" class="photo" alt="Our Memory Two"
+onerror="this.style.display='none'">
+<p>
+Tum mujhse door ho but meri feelings tumhare liye kabhi door nahi hui
+<br><br>
+I don't want this birthday to be just another birthday wish from a distance
+<br>
+I want to be there with you
+<br>
+See your smile
+<br>
+Celebrate with you
+<br>
+And make memories together ❤️
+</p>
+<div class="divider"></div>
+<h2>My Dua For You 🤲🏻</h2>
+<p>
+Allah tumhe hamesha khush rakhe
+<br>
+Tumhari har dua qubool kare
+<br>
+May you always have a reason to smile
+<br><br>
+And my biggest dua is that InshaAllah
+<br>
+one day this distance between us ends 🤲🏻❤️
+</p>
+<div class="divider"></div>
+<h2>My Future Wife ❤️</h2>
+<p>
+I don't want to celebrate only one birthday with you
+<br>
+I want to celebrate all your birthdays with you InshaAllah ❤️
+<br><br>
+Aaj hum door hain
+<br>
+But I hope ek din aisa aaye jab birthday wish karne ke liye phone ki zarurat hi na pade
+<br>
+Kyunki main tumhare saamne rahu ❤️
+</p>
+<div class="divider"></div>
+<h2>One Last Thing ❤️</h2>
+<p>
+No matter how many fights we have
+<br>
+No matter kitne bhi difficult days aaye
+<br>
+I still want us
+<br><br>
+I still want you
+<br>
+And I still pray that one day we will be together forever InshaAllah ❤️
+</p>
+<div class="divider"></div>
+<h2>Happy Birthday Once Again ❤️</h2>
+<p>
+I hope aaj tum bohot smile karo
+<br>
+Khush raho
+<br>
+Aur hamesha aise hi beautiful raho ❤️
+<br><br>
+InshaAllah ek din ye distance bhi khatam ho jayega
+<br>
+Aur phir birthdays hum saath celebrate karenge
+</p>
+<p class="signature">
+Happy Birthday My Jaann ❤️
+<br><br>
+I Love You So Much 🫂❤️
+</p>
+<div class="divider"></div>
+<h2>Waittt My Jaann 🥺💌</h2>
+<p>Jaane se pehle ek last surprise hai tumhare liye...</p>
+<button onclick="showSecret()">Open Your Last Surprise 💌</button>
+<div id="secret" class="secret">
+ <div class="big">🫂❤️</div>
+ <h2>Ek Promise, Meri Jaann</h2>
+ <p>
+  Main tumse ye promise nahi karunga ki humare beech kabhi problems nahi aayengi
+  <br><br>
+  Bas itna promise karna chahta hoon ki main apni galtiyon ko samajhne ki koshish karunga
+  aur tumhe apni care feel karane ke liye khud bhi effort karunga
+  <br><br>
+  Tumhe har baar apni importance yaad dilani na pade
+  main chahta hoon ki tumhe mere actions se bhi pata chale ❤️
+  <br><br>
+  Happy Birthday meri jaann
+  <br>
+  Allah tumhe hamesha khush rakhe
+  <br>
+  Ameen 🤲🏻❤️
+ </p>
+ <div class="signature">Always with love, Affan ❤️</div>
+</div>
+</div>
+</div>
+</div>
+<audio id="bgMusic" loop preload="none" playsinline>
+ <source src="dekha-hi-nahi.mp3.mp3" type="audio/mpeg">
+</audio>
+<script>
+const music=document.getElementById("bgMusic");
+function playMusic(){
+ music.play().then(()=>{
+  const btns=document.querySelectorAll("button");
+  btns.forEach(btn=>{
+   if(btn.innerText.includes("Play Music")){
+    btn.innerText="🎵 Music Playing";
+   }
+  });
+ }).catch(()=>{
+  alert("Music start karne ke liye button dobara tap karo 🎵");
+ });
+}
+function openSurprise(){
+ document.getElementById("opening").style.display="none";
+ document.getElementById("surprise").style.display="block";
+ window.scrollTo({top:0,behavior:"smooth"});
+ music.play().catch(()=>{});
+}
+function showSecret(){
+ const secret=document.getElementById("secret");
+ secret.style.display="block";
+ secret.scrollIntoView({behavior:"smooth",block:"center"});
+}
+function createHeart(){
+ const heart=document.createElement("div");
+ heart.className="heart";
+ heart.innerHTML=["❤️","♡","💗"][Math.floor(Math.random()*3)];
+ heart.style.left=Math.random()*100+"vw";
+ heart.style.fontSize=(14+Math.random()*18)+"px";
+ heart.style.animationDuration=(5+Math.random()*5)+"s";
+ document.body.appendChild(heart);
+ setTimeout(()=>heart.remove(),10000);
+}
+setInterval(createHeart,650);
+</script>
+</body>
+</html>
